@@ -2,7 +2,7 @@
 
 A modern, responsive restaurant website built with pure HTML5, CSS3, and vanilla JavaScript.
 
-**Live Demo:** [profix.com](https://profix.netlify.app)
+**Live Demo:** [profix.com](https://profixhomeservices.netlify.app)
 
 ## Features
 - Fully mobile-responsive
