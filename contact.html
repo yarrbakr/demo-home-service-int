@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | ProFix Home Services — Austin, TX</title>
+  <meta name="description" content="Contact ProFix Home Services for a free estimate. Call (512) 555-0147, visit us at 4521 Oak Ridge Drive, Austin, TX, or fill out our online form. 24/7 emergency line available.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact Us | ProFix Home Services">
+  <meta property="og:description" content="Get a free quote from ProFix Home Services. Call (512) 555-0147 or fill out our online form. Same-day service available in Austin, TX.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1200&q=80&auto=format">
+  <meta property="og:url" content="https://profixhomeservices.com/contact.html">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect rx='20' width='100' height='100' fill='%231A237E'/><text x='50' y='68' font-size='55' text-anchor='middle' fill='%23FF6F00'>&#128295;</text></svg>">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="index.html" class="navbar__logo">
+        <i class="fas fa-wrench navbar__logo-icon"></i> ProFix Home Services
+      </a>
+      <span class="navbar__phone">
+        <i class="fas fa-phone"></i>
+        <a href="tel:+15125550147">(512) 555-0147</a>
+      </span>
+      <input type="checkbox" id="nav-toggle" class="navbar__checkbox" aria-hidden="true">
+      <label for="nav-toggle" class="navbar__hamburger" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </label>
+      <div class="navbar__overlay"></div>
+      <ul class="navbar__menu">
+        <li><a href="index.html" class="navbar__link">Home</a></li>
+        <li><a href="about.html" class="navbar__link">About</a></li>
+        <li><a href="services.html" class="navbar__link">Services</a></li>
+        <li><a href="areas.html" class="navbar__link">Service Areas</a></li>
+        <li><a href="contact.html" class="navbar__link">Contact</a></li>
+        <li><a href="contact.html" class="navbar__link navbar__link--cta">Get Free Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero hero--contact">
+    <div class="hero__content">
+      <h1 class="hero__title">Contact Us</h1>
+      <p class="hero__subtitle">Get a free quote or schedule a service call today</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Form -->
+        <div class="contact-form fade-in">
+          <h2 class="contact-form__title"><i class="fas fa-file-invoice"></i> Request a Free Quote</h2>
+          <form action="https://formspree.io/f/xyzformid" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" required placeholder="Your full name">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required placeholder="(512) 555-0000">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com">
+              </div>
+              <div class="form-group">
+                <label for="service">Service Needed *</label>
+                <select id="service" name="service" required>
+                  <option value="">Select a service</option>
+                  <option value="plumbing">Plumbing</option>
+                  <option value="electrical">Electrical</option>
+                  <option value="hvac">HVAC</option>
+                  <option value="handyman">Handyman</option>
+                  <option value="remodeling">Home Remodeling</option>
+                  <option value="emergency">Emergency Service</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" id="date" name="preferred_date">
+              </div>
+              <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <select id="time" name="preferred_time">
+                  <option value="">Select a time</option>
+                  <option value="morning">Morning (7AM - 12PM)</option>
+                  <option value="afternoon">Afternoon (12PM - 5PM)</option>
+                  <option value="evening">Evening (5PM - 7PM)</option>
+                  <option value="flexible">Flexible</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group" style="margin-bottom: var(--space-lg)">
+              <label for="message">Describe Your Issue</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about the problem or project..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg">
+              <i class="fas fa-paper-plane"></i> Submit Request
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info-cards fade-in">
+          <div class="contact-card">
+            <div class="contact-card__icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4 class="contact-card__title">Our Office</h4>
+              <p class="contact-card__text">4521 Oak Ridge Drive<br>Austin, TX 78749</p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card__icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4 class="contact-card__title">Phone</h4>
+              <p class="contact-card__text"><a href="tel:+15125550147">(512) 555-0147</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card__icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4 class="contact-card__title">Email</h4>
+              <p class="contact-card__text"><a href="mailto:info@profixaustin.com">info@profixaustin.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="contact-card__icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <h4 class="contact-card__title">Business Hours</h4>
+              <p class="contact-card__text">Mon-Fri: 7:00 AM - 7:00 PM<br>Sat: 8:00 AM - 5:00 PM<br>Sun: Emergency Only</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__header fade-in">
+        <h2>Find Us</h2>
+        <div class="accent-line"></div>
+      </div>
+      <div class="map-section fade-in">
+        <iframe
+          src="https://maps.google.com/maps?q=30.2672,-97.7431&z=15&output=embed"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="ProFix Home Services office location in Austin, Texas">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hours Section -->
+  <section class="section section--white hours-section">
+    <div class="container">
+      <div class="section__header fade-in">
+        <h2>Opening Hours</h2>
+        <div class="accent-line"></div>
+      </div>
+      <table class="hours-table fade-in">
+        <tr>
+          <td>Monday - Friday</td>
+          <td>7:00 AM - 7:00 PM</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>8:00 AM - 5:00 PM</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td class="emergency-text">Emergency Only</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- Emergency Banner -->
+  <section class="emergency-banner fade-in">
+    <div class="container">
+      <div class="emergency-banner__content">
+        <i class="fas fa-exclamation-triangle emergency-banner__icon"></i>
+        <div>
+          <h3>24/7 Emergency Service</h3>
+          <p>Burst pipe? Power outage? AC failure? Call our emergency line now.</p>
+        </div>
+        <a href="tel:+15125550911" class="btn btn--outline">
+          <i class="fas fa-phone"></i> (512) 555-0911
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo"><i class="fas fa-wrench"></i> ProFix Home Services</div>
+          <p>Austin's most trusted home service company. Licensed, insured, and committed to quality work at fair prices since 2012.</p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <div class="footer__links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="areas.html">Service Areas</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <div class="footer__links">
+            <a href="services.html">Plumbing</a>
+            <a href="services.html">Electrical</a>
+            <a href="services.html">HVAC</a>
+            <a href="services.html">Handyman</a>
+            <a href="services.html">Remodeling</a>
+            <a href="services.html">Emergency</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact Us</h4>
+          <div class="footer__contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>4521 Oak Ridge Drive<br>Austin, TX 78749</span>
+          </div>
+          <div class="footer__contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+15125550147">(512) 555-0147</a>
+          </div>
+          <div class="footer__contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:info@profixaustin.com">info@profixaustin.com</a>
+          </div>
+          <div class="footer__contact-item">
+            <i class="fas fa-clock"></i>
+            <span>Mon-Fri: 7AM-7PM<br>Sat: 8AM-5PM | Sun: Emergency</span>
+          </div>
+          <div class="footer__social">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Google"><i class="fab fa-google"></i></a>
+            <a href="#" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 ProFix Home Services. All rights reserved. | Austin, Texas
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Call Button -->
+  <a href="tel:+15125550147" class="call-fab" aria-label="Call ProFix Home Services">
+    <i class="fas fa-phone"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
